@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import EnvelopeLanding from "@/components/wedding/EnvelopeLanding";
+import HeroSection from "@/components/wedding/HeroSection";
+import WeddingDetails from "@/components/wedding/WeddingDetails";
+import EventTimeline from "@/components/wedding/EventTimeline";
+import GallerySection from "@/components/wedding/GallerySection";
+import RSVPSection from "@/components/wedding/RSVPSection";
+import Footer from "@/components/wedding/Footer";
 
 const Index = () => {
+  const [isOpened, setIsOpened] = useState(false);
+
+  if (!isOpened) {
+    return <EnvelopeLanding onOpen={() => setIsOpened(true)} />;
+  }
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <HeroSection />
+      <WeddingDetails />
+      <EventTimeline />
+      <GallerySection />
+      <RSVPSection />
+      <Footer />
     </div>
   );
 };
