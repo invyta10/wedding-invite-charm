@@ -74,16 +74,18 @@ const EnvelopeLanding = ({ onOpen }: EnvelopeLandingProps) => {
           </div>
 
           {/* Invitation card inside */}
-          <div className={`absolute left-4 right-4 top-4 bottom-4 rounded bg-background border border-primary/20 flex flex-col items-center justify-center ${isOpening ? 'animate-card-slide' : ''}`}>
+          <div className={`absolute left-4 right-4 bottom-4 lg:bottom-8 rounded flex flex-col items-center justify-center ${isOpening ? 'animate-card-slide' : ''}`}>
             <p className="font-script text-primary text-lg md:text-xl">You're Invited</p>
             <div className="w-12 h-px bg-primary/40 my-1.5"></div>
             <p className="font-display text-foreground/70 text-xs tracking-widest uppercase">Alayza & John</p>
           </div>
 
           {/* Wax seal */}
-          <div className={`absolute -bottom-4 left-1/2 -translate-x-1/2 z-10 transition-opacity duration-300 ${isOpening ? 'opacity-0' : 'opacity-100'}`}>
-            <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gradient-to-br from-[hsl(var(--wedding-rose))] to-[hsl(var(--destructive))] shadow-lg flex items-center justify-center border-2 border-[hsl(var(--wedding-rose))]/30">
-              <span className="font-script text-background text-lg md:text-xl">A&J</span>
+          <div className={`absolute top-14 lg:top-16 left-1/2 -translate-x-1/2 z-10 transition-opacity duration-300 ${isOpening ? 'opacity-0' : 'opacity-100'}`}>
+            <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-gradient-to-br from-[hsl(var(--wedding-rose))] to-[hsl(var(--destructive))] shadow-lg flex items-center justify-center border-2 border-[hsl(var(--wedding-rose))]/30 transition-transform duration-300 group-hover:scale-105 group-active:scale-95">
+              <span className="font-display text-background text-lg md:text-xl leading-none -tracking-[0.02em] drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]">
+                AJ
+              </span>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Footer = () => {
           We are grateful for your love and support as we begin this beautiful journey together.
         </p>
 
-        <p className="font-display text-primary/50 tracking-[0.3em] uppercase text-sm">
+        <p className="font-display text-primary/50 tracking-[0.3em] text-sm">
           #AlayzaAndJohn
         </p>
 
