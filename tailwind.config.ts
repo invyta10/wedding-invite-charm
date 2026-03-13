@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        wedding: {
+          cream: "hsl(var(--wedding-cream))",
+          blush: "hsl(var(--wedding-blush))",
+          gold: "hsl(var(--wedding-gold))",
+          sage: "hsl(var(--wedding-sage))",
+          rose: "hsl(var(--wedding-rose))",
+          deep: "hsl(var(--wedding-deep))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
