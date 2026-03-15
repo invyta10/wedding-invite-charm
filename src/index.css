@@ -162,6 +162,9 @@
   100% { transform: translateY(90vh) rotate(180deg); opacity: 0; }
 }
 
+.text-primary{
+  color:#402F26CC;
+}
 .animate-petal-drift {
   animation: petal-drift 7s ease-in-out infinite;
 }

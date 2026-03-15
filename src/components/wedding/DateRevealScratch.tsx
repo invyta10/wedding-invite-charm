@@ -114,7 +114,7 @@ const ScratchCoin = ({ label, value, onReveal }: ScratchCoinProps) => {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <div ref={wrapperRef} className="relative w-[150px] h-[150px] md:w-[170px] md:h-[170px]">
+      <div ref={wrapperRef} className="relative w-[100px] h-[100px] sm:w-[140px] sm:h-[140px] md:w-[170px] md:h-[170px]">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full h-full rounded-full border border-primary/25 shadow-[0_10px_25px_-18px_rgba(0,0,0,0.6)] flex items-center justify-center text-center">
             <div>
@@ -158,7 +158,7 @@ const DateRevealScratch = () => {
           {allRevealed ? "Save the date — December 20, 2026" : "Scratch to reveal the date"}
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+        <div className="flex flex-row flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-10">
           <ScratchCoin label="Month" value="December" onReveal={handleReveal} />
           <ScratchCoin label="Day" value="20" onReveal={handleReveal} />
           <ScratchCoin label="Year" value="2026" onReveal={handleReveal} />
