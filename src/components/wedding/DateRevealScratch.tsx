@@ -118,7 +118,7 @@ const ScratchCoin = ({ label, value, onReveal }: ScratchCoinProps) => {
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full h-full rounded-full border border-primary/25 shadow-[0_10px_25px_-18px_rgba(0,0,0,0.6)] flex items-center justify-center text-center">
             <div>
-              <div className="font-script text-primary text-2xl md:text-3xl">{value}</div>
+              <div className="font-script text-primary text-xl md:text-3xl">{value}</div>
               <div className="font-display text-[11px] md:text-xs tracking-[0.3em] uppercase text-foreground/60 mt-1">
                 {label}
               </div>
