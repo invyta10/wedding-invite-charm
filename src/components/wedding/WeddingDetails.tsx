@@ -43,9 +43,9 @@ const WeddingDetails = () => {
               <span className="font-body">6:30 PM</span>
             </div>
             <div className="flex items-start justify-center gap-2 text-muted-foreground">
-              <MapPin className="w-4 h-4 mt-0.5 shrink-0" />
               <div>
-                <p className="font-display text-foreground">The Garden Terrace</p>
+              
+                <p className="font-display text-foreground"><span><MapPin className="w-4 h-4 mt-0.5 shrink-0" /></span>The Garden Terrace</p>
                 <p className="font-body text-sm">123 Wedding Avenue, Beverly Hills, CA 90210</p>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import EnvelopeLanding from "@/components/wedding/EnvelopeLanding";
 import HeroSection from "@/components/wedding/HeroSection";
+import DateRevealScratch from "@/components/wedding/DateRevealScratch";
 import WeddingDetails from "@/components/wedding/WeddingDetails";
 import EventTimeline from "@/components/wedding/EventTimeline";
 import GallerySection from "@/components/wedding/GallerySection";
@@ -17,6 +18,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <HeroSection />
+      <DateRevealScratch />
       <WeddingDetails />
       <EventTimeline />
       <GallerySection />
