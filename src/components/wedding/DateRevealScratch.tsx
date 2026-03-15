@@ -114,7 +114,7 @@ const ScratchCoin = ({ label, value, onReveal }: ScratchCoinProps) => {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <div ref={wrapperRef} className="relative w-[90px] h-[90px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px]">
+      <div ref={wrapperRef} className="relative w-[80px] h-[80px] sm:w-[120px] sm:h-[120px] md:w-[150px] md:h-[150px]">
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full h-full rounded-full border border-primary/25 shadow-[0_10px_25px_-18px_rgba(0,0,0,0.6)] flex items-center justify-center text-center">
             <div>
