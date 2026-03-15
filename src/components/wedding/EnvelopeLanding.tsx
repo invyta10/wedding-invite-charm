@@ -18,18 +18,25 @@ const EnvelopeLanding = ({ onOpen }: EnvelopeLandingProps) => {
       {/* Background image */}
       <div className="absolute top-0 left-0 right-0 h-[100vh]">
         <div
-          className="absolute inset-0 bg-no-repeat bg-center hidden md:block"
-          style={{ backgroundImage: "url('/hands.jpeg')", backgroundPosition: "center 100%", backgroundSize: "cover" }}
+          className="absolute inset-0 bg-no-repeat bg-center hidden md:block bg-cover"
+          style={{ backgroundImage: "url('/brown-bg.jpeg')", backgroundPosition: "center 100%" }}
         />
         <div
-          className="absolute inset-0 bg-no-repeat bg-center md:hidden block"
-          style={{ backgroundImage: "url('/hands3.png')", backgroundPosition: "center 100%", backgroundSize: "cover" }}
+          className="absolute inset-0 bg-no-repeat bg-center md:hidden block bg-cover"
+          style={{ backgroundImage: "url('/brown-bg.jpeg')", backgroundPosition: "right 100%" }}
         />
         <div className="absolute inset-0 bg-background/70 backdrop-blur-[1px]" />
       </div>
 
+      {/* Title */}
+      <div className="absolute top-48 sm:top-28 left-1/2 -translate-x-1/2 z-30 text-center text-foreground/80">
+        <div className="font-display text-[10px] sm:text-xs tracking-[0.45em] uppercase">Where</div>
+        <div className="font-display text-3xl sm:text-4xl md:text-5xl tracking-[0.2em] uppercase mt-1">Love</div>
+        <div className="font-display text-[10px] sm:text-xs tracking-[0.45em] uppercase mt-1">Begins</div>
+      </div>
+
       {/* Envelope + CTA */}
-      <div className="relative z-20 flex flex-col items-center mt-[12vh] md:mt-[20vh]">
+      <div className="relative z-20 flex flex-col items-center mt-[12vh] md:mt-[16vh]">
         <div
           className="relative cursor-pointer group"
           onClick={handleClick}
