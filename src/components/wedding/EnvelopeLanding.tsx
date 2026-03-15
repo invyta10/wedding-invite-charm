@@ -29,7 +29,7 @@ const EnvelopeLanding = ({ onOpen }: EnvelopeLandingProps) => {
       </div>
 
       {/* Title */}
-      <div className="absolute top-48 sm:top-28 left-1/2 -translate-x-1/2 z-30 text-center text-foreground/80">
+      <div className="absolute top-48 sm:top-16 left-1/2 -translate-x-1/2 z-30 text-center text-foreground/80">
         <div className="font-display text-[10px] sm:text-xs tracking-[0.45em] uppercase">Where</div>
         <div className="font-display text-3xl sm:text-4xl md:text-5xl tracking-[0.2em] uppercase mt-1">Love</div>
         <div className="font-display text-[10px] sm:text-xs tracking-[0.45em] uppercase mt-1">Begins</div>
