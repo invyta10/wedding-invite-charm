@@ -155,12 +155,12 @@ const DateRevealScratch = () => {
         <p className="font-script text-primary text-3xl md:text-4xl mb-2 animate-fade-in-up">Reveal</p>
         <div className="w-20 h-px bg-primary/30 mx-auto mb-4 animate-fade-in-up animation-delay-200"></div>
         <p className="font-body text-muted-foreground mb-10 animate-fade-in-up animation-delay-200">
-          {allRevealed ? "Save the date — December 20, 2026" : "Scratch to reveal the date"}
+          {allRevealed ? "Save the date — January 21, 2026" : "Scratch to reveal the date"}
         </p>
 
         <div className="flex flex-row flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-10">
-          <ScratchCoin label="Day" value="20" onReveal={handleReveal} />
-          <ScratchCoin label="Month" value="December" onReveal={handleReveal} />
+          <ScratchCoin label="Day" value="21" onReveal={handleReveal} />
+          <ScratchCoin label="Month" value="January" onReveal={handleReveal} />
           <ScratchCoin label="Year" value="2026" onReveal={handleReveal} />
         </div>
       </div>

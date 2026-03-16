@@ -1,11 +1,11 @@
 import { Heart, Music, Sparkles, Church, PartyPopper } from "lucide-react";
 
 const events = [
-  { icon: Heart, title: "Engagement", date: "November 15, 2026", time: "5:00 PM", description: "An intimate celebration of love" },
-  { icon: Sparkles, title: "Mehendi", date: "December 17, 2026", time: "11:00 AM", description: "Colors of joy and tradition" },
-  { icon: Music, title: "Sangeet", date: "December 18, 2026", time: "7:00 PM", description: "A night of music and dance" },
-  { icon: Church, title: "Wedding", date: "December 20, 2026", time: "4:00 PM", description: "The sacred union of two souls" },
-  { icon: PartyPopper, title: "Reception", date: "December 20, 2026", time: "6:30 PM", description: "Dinner, dance, and celebration" },
+  { icon: Heart, title: "Engagement", date: "May 21, 2025", time: "5:00 PM", description: "An intimate celebration of love" },
+  { icon: Sparkles, title: "Mehendi", date: "January 19, 2026", time: "11:00 AM", description: "Colors of joy and tradition" },
+  { icon: Music, title: "Sangeet", date: "January 20, 2026", time: "7:00 PM", description: "A night of music and dance" },
+  { icon: Church, title: "Wedding", date: "January 21, 2026", time: "4:00 PM", description: "The sacred union of two souls" },
+  { icon: PartyPopper, title: "Reception", date: "January 21, 2026", time: "6:30 PM", description: "Dinner, dance, and celebration" },
 ];
 
 const EventTimeline = () => {

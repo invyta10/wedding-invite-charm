@@ -46,7 +46,7 @@ const HeroSection = () => {
           <div className="w-px h-8 bg-primary/30"></div>
           <div className="mt-4 border border-primary/20 rounded-lg px-8 py-4 bg-card/50">
             <p className="font-display text-foreground text-lg md:text-xl tracking-wider">
-              Saturday, December 20, 2026
+              Saturday, January 21, 2026
             </p>
             <p className="font-body text-muted-foreground text-sm mt-1">
               At Four O'Clock in the Afternoon

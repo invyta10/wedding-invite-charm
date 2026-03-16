@@ -15,7 +15,7 @@ const WeddingDetails = () => {
               <Calendar className="w-5 h-5 text-primary" />
             </div>
             <h3 className="font-display text-lg tracking-wider uppercase text-foreground mb-4">The Ceremony</h3>
-            <p className="font-body text-muted-foreground mb-1">Saturday, December 20, 2026</p>
+            <p className="font-body text-muted-foreground mb-1">Saturday, January 21, 2026</p>
             <div className="flex items-center justify-center gap-2 text-muted-foreground mb-4">
               <Clock className="w-4 h-4" />
               <span className="font-body">4:00 PM</span>
@@ -37,7 +37,7 @@ const WeddingDetails = () => {
               </svg>
             </div>
             <h3 className="font-display text-lg tracking-wider uppercase text-foreground mb-4">The Reception</h3>
-            <p className="font-body text-muted-foreground mb-1">Saturday, December 20, 2026</p>
+            <p className="font-body text-muted-foreground mb-1">Saturday, January 21, 2026</p>
             <div className="flex items-center justify-center gap-2 text-muted-foreground mb-4">
               <Clock className="w-4 h-4" />
               <span className="font-body">6:30 PM</span>
