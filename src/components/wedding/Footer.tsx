@@ -17,12 +17,12 @@ const Footer = () => {
         </p>
 
         <p className="font-display text-primary/50 tracking-[0.3em] text-sm">
-          #AlayzaAndJohn
+          #DharmikAndJigisha
         </p>
 
         <div className="mt-10 flex items-center justify-center gap-3 opacity-20">
           <div className="w-8 h-px bg-primary"></div>
-          <p className="font-body text-muted-foreground text-xs">A & J · 2026</p>
+          <p className="font-body text-muted-foreground text-xs">D & J · 2026</p>
           <div className="w-8 h-px bg-primary"></div>
         </div>
       </div>

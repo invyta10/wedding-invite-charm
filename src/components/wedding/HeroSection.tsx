@@ -20,7 +20,7 @@ const HeroSection = () => {
         </p>
 
         <h1 className="animate-fade-in-up animation-delay-200 font-script text-5xl md:text-7xl lg:text-8xl text-primary leading-tight">
-          Alayza
+          Dharmik
         </h1>
 
         <div className="animate-fade-in-up animation-delay-400 flex items-center justify-center gap-4 my-4">
@@ -30,7 +30,7 @@ const HeroSection = () => {
         </div>
 
         <h1 className="animate-fade-in-up animation-delay-400 font-script text-5xl md:text-7xl lg:text-8xl text-primary leading-tight">
-          John
+          Jigisha
         </h1>
 
         <div className="animate-fade-in-up animation-delay-600 mt-8">
