@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import confetti from "canvas-confetti";
 
 type ScratchCoinProps = {
   label: string;
@@ -144,10 +145,22 @@ const ScratchCoin = ({ label, value, onReveal }: ScratchCoinProps) => {
 const DateRevealScratch = () => {
   const [revealedCount, setRevealedCount] = useState(0);
   const allRevealed = revealedCount >= 3;
+  const confettiFiredRef = useRef(false);
 
   const handleReveal = () => {
     setRevealedCount((prev) => Math.min(3, prev + 1));
   };
+
+  useEffect(() => {
+    if (!allRevealed || confettiFiredRef.current) return;
+    confettiFiredRef.current = true;
+    confetti({
+      particleCount: 150,
+      spread: 80,
+      origin: { y: 0.6 },
+      colors: ["#c9a96e", "#e8d5b7", "#d4a5a5", "#b5c9b7", "#f0e6d3"],
+    });
+  }, [allRevealed]);
 
   return (
     <section className="py-20 px-6 flex justify-center">
