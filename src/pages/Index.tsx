@@ -7,6 +7,7 @@ import EventTimeline from "@/components/wedding/EventTimeline";
 import GallerySection from "@/components/wedding/GallerySection";
 import RSVPSection from "@/components/wedding/RSVPSection";
 import Footer from "@/components/wedding/Footer";
+import MusicPlayer from "@/components/wedding/MusicPlayer";
 
 const Index = () => {
   const [isOpened, setIsOpened] = useState(false);
@@ -17,6 +18,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <MusicPlayer />
       <HeroSection />
       <DateRevealScratch />
       <WeddingDetails />
